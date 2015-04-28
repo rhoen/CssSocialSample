@@ -33,6 +33,10 @@
   padding: 5px;
 }
 
+.profile-nav a:hover {
+  background: #eee;
+}
+
 .profile-nav  ul li:first-child {
   border-top: 1px solid #ccc;
 }
