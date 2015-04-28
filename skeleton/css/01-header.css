@@ -9,6 +9,8 @@ body {
 .header {
   background: red;
   border-bottom: 1px solid #ccc;
+  position: relative;
+  z-index: 1;
 }
 
 .header-nav {
@@ -29,11 +31,17 @@ body {
 
 .header-list {
   float: right;
+
 }
 
-.header-list li {
+.header-list > li {
   float: left;
   border-left: 1px solid #ccc;
+  position: relative;
+}
+
+.header-list > li:hover ul {
+  display: block;
 }
 
 .header-nav a {
@@ -41,6 +49,6 @@ body {
   padding: 10px 20px;
 }
 
-.header-nav a:hover {
+.header-list > li:hover {
   background: #000;
 }

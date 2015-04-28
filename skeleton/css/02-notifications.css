@@ -5,3 +5,35 @@
   padding:1px 6px;
   font-size: 14px;
 }
+
+.sub-nav:hover strong{
+  background: #f00;
+}
+
+.nav-notifications {
+  background: #fff;
+  color: #000;
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #ccc;
+  left: -1px;
+  overflow: hidden;
+}
+
+.nav-notifications li {
+  display: block;
+  white-space: nowrap;
+  border-top: 1px solid #ccc;
+}
+
+.nav-notifications li:first-child {
+  border-top: 0;
+}
+
+
+.nav-notifications li a:hover {
+  background: #eee;
+
+}
