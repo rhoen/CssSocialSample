@@ -1,1 +1,8 @@
 /* PHASE 1: Header */
+header {
+  background: red;
+}
+
+nav h1 {
+  float: left;
+}

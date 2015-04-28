@@ -46,7 +46,7 @@ input[type="submit"] {
 
 /* Clearfix */
 
-.group:after {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
