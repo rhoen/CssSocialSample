@@ -1,8 +1,26 @@
 /* PHASE 1: Header */
-header {
+main {
   background: red;
+  font-family: "Roboto";
+
+}
+
+header {
+  background: green;
+  width: 900px;
+  margin: auto;
 }
 
 nav h1 {
+  float: left;
+  background: yellow;
+}
+
+nav ul {
+  background: blue;
+  float: right;
+}
+
+nav ul li {
   float: left;
 }
