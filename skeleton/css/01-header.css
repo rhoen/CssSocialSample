@@ -1,32 +1,45 @@
 /* PHASE 1: Header */
-body{
+body {
   font-weight: 400;
   font-size: 14px;
   font-family: "Roboto";
 
 }
 
-header {
+.header {
   background: red;
 }
 
-nav {
+.header-nav {
   margin: auto;
-  background: purple;
   width: 900px;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  font-size: 16px;
+  color: #fff;
 }
 
-nav h1 {
+.header-logo {
   float: left;
-  background: yellow;
+  border-right: 1px solid #aaa;
+  font-weight: 700;
+
 }
 
-nav ul {
-  background: blue;
+.header-list {
   float: right;
 }
 
-.main-nav li {
+.header-list li {
   float: left;
-  background: orange;
+  border-left: 1px solid #aaa;
+}
+
+.header-nav a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav a:hover {
+  background: #000;
 }
