@@ -1,1 +1,43 @@
 /* PHASE 8: Thumbs */
+.thumb {
+  width: 58px;
+  height: 58px;
+  float: left;
+}
+
+.friend-grid {
+  width: 200px;
+  display: block;
+  background: blue;
+  position: relative;
+}
+
+
+.friend-grid li {
+  display: block;
+  position: relative;
+}
+
+.friend-grid li:nth-of-type(3n + 2) {
+  margin-right: 10px;
+  margin-left: 10px;
+  background: red;
+
+}
+
+.thumb:before {
+  content: attr(title);
+  display:block;
+  position:absolute;
+  background: blue;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.thumb:hover {
+
+}
+.friend-grid li:first-child {
+  border: 2px solid black;
+  margin-right: 10px;
+}
